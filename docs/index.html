@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Materialize -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/1be562525d.js" crossorigin="anonymous"></script>
+    <!-- simple-lightbox -->
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <!-- Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Instrumentos</title>
+</head>
+<body>
+    
+    <header id="home">
+        <nav class="nav">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#!" class="brand-logo brand">Instrumentos</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down menu">
+                        <li><a href="#home">Principal</a></li>
+                        <li><a href="#products">Galeria</a></li>
+                        <li><a href="#drummers">Clientes</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Principal</a></li>
+        <li><a href="#">Galeria</a></li>
+        <li><a href="#">Instrumentos</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+
+    <main class="main-info">
+        <div class="absolute-title">
+            <h3>Instrumentos</h3> 
+        </div>
+        <div class="container">
+            <div data-aos="fade-right" data-aos-duration="3000">
+                <h1><span>Siente</span> El Ritmo</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo pariatur esse, consectetur quidem ipsa fugit soluta exercitationem error sapiente corrupti, molestiae at omnis optio ipsam iste unde dolore nobis fugiat.</p>
+                <button class="btn-info">Saber más</button>
+            </div>
+            <img src="img/drums-primary.png" alt="drums-primary" data-aos="fade-left" data-aos-duration="3000">
+        </div>
+    </main>
+
+    <article class="overlay-section">
+        <div class="overlay">
+            <div class="container">
+                <h3>Instrumentos</h3>
+                <h2>"Deja fluir tus emociones"</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam provident architecto exercitationem sunt similique nobis nam, dolor officiis voluptatem, praesentium non iste consequuntur a mollitia soluta inventore libero magnam.</p>
+            </div>
+        </div>
+    </article>
+
+    <article class="products" id="products" data-aos="fade-up" data-aos-duration="2000">
+        <section class="product-title" >
+            <h2>Nuestro Productos</h2>
+            <div class="line"></div>
+        </section>
+        <div class="carousel" id="carousel">
+            <a class="carousel-item" id="carousel-item" href="#one!">
+                <img src="./img/products/17230950023.png" alt="MAPEX-0023">
+                <h5>MAPEX</h5>
+            </a>
+            <a class="carousel-item" id="carousel-item" href="#two!">
+                <img src="./img/products/17230950024.png" alt="MAPEX-0024">
+                <h5>MAPEX</h5>
+            </a>
+            <a class="carousel-item" id="carousel-item" href="#three!">
+                <img src="./img/products/17230950025.png" alt="MAPEX-0025">
+                <h5>MAPEX</h5>
+            </a>
+            <a class="carousel-item" id="carousel-item" href="#four!">
+                <img src="./img/products/17230950026.png" alt="PRIMER-0026">
+                <h5>PRIMER</h5>
+            </a>
+            <a class="carousel-item" id="carousel-item" href="#five!">
+                <img src="./img/products/17230950027.png" alt="PRIMER-0026">
+                <h5>PRIMER</h5>
+            </a>
+        </div>
+    </article>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="skew">
+        <path fill="#ee6e73" fill-opacity="1" d="M0,96L1440,224L1440,320L0,320Z"></path>
+    </svg>
+
+    <div class="our-drummers" id="drummers"> 
+        <h2>Nuestros Clientes</h2>
+        <div class="line"></div>
+        <div class="drummers">
+            <div class="gallery">
+                <a href="img/drummers/drummer-640.jpg"><img src="img/drummers/drummer-640.jpg" alt="Vinie Cliam" /></a>
+                <a href="img/drummers/drummer-641.jpg"><img src="img/drummers/drummer-641.jpg" alt="Wekin Pardes" /></a>
+                <a href="img/drummers/drummer-642.jpg"><img src="img/drummers/drummer-642.jpg" alt="Ribon Treun" /></a>
+                <a href="img/drummers/drummer-643.jpg"><img src="img/drummers/drummer-643.jpg" alt="Makin Tow" /></a>
+                <a href="img/drummers/drummer-644.jpg"><img src="img/drummers/drummer-644.jpg" alt="Limper Clie" /></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <form class="container-form">
+            <h2>Envianos un mensaje</h2>
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Asunto">
+            <textarea cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button class="btn-info">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="social-media">
+                <h3>Instrumentos</h3>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="info">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="#home">Principal</a></li>
+                    <li><a href="#products">Galeria</a></li>
+                    <li><a href="#drummers">Clientes</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="blog">
+                <h3>Blog</h3>
+                <ul>
+                    <li><a href="#">Blog #1</a></li>
+                    <li><a href="#">Blog #2</a></li>
+                    <li><a href="#">Blog #3</a></li>
+                    <li><a href="#">Blog #4</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
